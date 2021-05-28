@@ -17,8 +17,8 @@
   roles:
     - lvm
     - lxd
-    - test_firewall
-    - test_admin
+    - firewall
+    - admin
 
     - role: lxd_server
       vars:
